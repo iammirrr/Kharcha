@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicy"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/btn_arrow_red_back">
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+
+            >
+            <TextView
+
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="-5dp"
+                android:layout_weight="9"
+                android:fontFamily="@font/inria_sans"
+                android:text="Privacy"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="9"
+                android:fontFamily="@font/inria_sans_r"
+                android:text="Policy"
+                android:textColor="@color/white"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_privacy_policy">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            android:fontFamily="@font/inria_sans_r"
+            android:text="Our Daily Finance Management App is committed to protecting the privacy of its users. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to safeguard your data.
+
+    Information Collection:
+        Personal Information: We may collect personal information such as your name, email address, and financial details when you register or use our app.
+        Financial Data: We may collect information about your income, expenses, transactions, and financial accounts to provide financial management services effectively.
+        Usage Data: We may collect information about how you interact with the app, including pages visited, features used, and duration of usage.
+
+    Information Usage:
+        Provide Services: We use the collected information to deliver the services offered by the app, including financial tracking, budgeting, and expense categorization.
+        Personalization: We may personalize your experience based on the information provided to offer relevant features and recommendations.
+        Communication: We may use your contact information to send you important notifications, updates, or promotional materials related to the app."
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>

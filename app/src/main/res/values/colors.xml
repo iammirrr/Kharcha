@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selected_color">#6C4FD9</color>
+    <color name="unselected_color">#FF000000</color>
+    <drawable name="gradient_background">@drawable/custom_purple_gradent</drawable>
+
+</resources>
+

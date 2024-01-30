@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/inria_sans"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:fontFamily="@font/inria_sans"
+        android:text="Login or Signup"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/icon_piggy">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/btn_login">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inria_sans"
+        android:gravity="center"
+        android:text="or"
+        android:textColor="#6F5099">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/btn_signup">
+
+    </ImageView>
+</LinearLayout>

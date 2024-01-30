@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739442350081",
+    "project_id": "kharcha-app-caa49",
+    "storage_bucket": "kharcha-app-caa49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739442350081:android:45378852a36cfceb44c800",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDou8iAifRHbsJHkut_kINFyaohYl_i7Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
